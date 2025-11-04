@@ -1,0 +1,16 @@
+/shelf/
+/workspace.xml
+.idea
+*.pyc
+.env
+.venv
+venv/
+__pycache__
+__pycache__/
+misc.xml
+modules.xml
+profiles_settings.xml
+PythonProject.iml
+vcs.xml
+*.png
+*.jpg
