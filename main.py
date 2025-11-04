@@ -28,8 +28,8 @@ def set_color_palette(app):
 if __name__ == "__main__":
     db = Database()
     db.init_database()
+    db.create_categories()
     
-    # Очищаем дубликаты в истории просмотров
     deleted = db.cleanup_history_duplicates()
     if deleted > 0:
         print(f"Очищено {deleted} дубликатов из истории просмотров")
